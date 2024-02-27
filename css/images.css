@@ -1,0 +1,34 @@
+.hero--image--container {
+  width: 50%;
+  padding: 20px;
+}
+
+.hero--image {
+  width: 80%;
+  padding: 10px;
+  border: solid 5px #391775;
+  border-left: solid 5px #f1bd11;
+  border-bottom: solid 5px #f1bd11;
+  border-radius: 80%;
+}
+
+.github--logo {
+  width: 50%;
+}
+.github--mark {
+  width: 20%;
+}
+
+.project--image-holder {
+  display: flex;
+  justify-content: center;
+}
+
+
+.project-card--website-image{ 
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+}
+

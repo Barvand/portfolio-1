@@ -1,0 +1,32 @@
+.hero-container,
+.github-logo-container,
+.hero-text {
+  display: flex;
+}
+
+/* flex-direction: Column */
+.hero-text {
+  flex-direction: column;
+}
+
+/* Justify content - Center */
+.hero-text {
+  justify-content: center;
+}
+
+.project-card,
+.project-container { 
+    gap: 15px;
+}
+
+
+.max-width-flex-container { 
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hero--image--container { 
+  display: flex;
+  justify-content: center;
+}

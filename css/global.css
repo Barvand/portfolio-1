@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background: black;
+  align-content: center;
+  background: linear-gradient(to right, #391775 60%, #f1bd11 40%);
+}
+
+nav {
+  width: 90%;
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  height: 100px;
+  color: white;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.website-logo {
+  font-family: "Asap Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+}
+
+.logo-span-color {
+  color: #f1bd11;
+}
+
+li {
+  list-style: none;
+  font-weight: 600;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+.website-logo {
+  margin-right: auto; /* Pushes the logo to the left */
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  padding: 0;
+}
+
+section {
+  padding: 20px 0 20px 0;
+}
+
+h1 {
+  font-family: "Asap Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  padding: 0;
+  margin: 5px 0;
+}
+
+h2 {
+  font-family: "Asap Condensed", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  padding: 0;
+  margin: 5px 0;
+}
+
+.margin {
+  padding: 0;
+  margin: 5px 0;
+}
+
+/*  First Section Hero Container */
+
+.introduction-hero {
+  background: linear-gradient(to right, #391775 60%, #f1bd11 40%);
+}
+
+.hero-container {
+  width: 100%;
+  gap: 20px;
+}
+
+.hero-text {
+  width: 50%;
+}
+
+/*  Second Section Project Cards */
+.project-container {
+  background-color: rgba(111, 132, 230, 0.3);
+  color: black;
+}
+
+.project-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.project--text--type-project {
+  color: rgb(82, 81, 81);
+}
+
+.project--text--title {
+  margin: 0;
+}
+
+.project--text--type-project {
+  margin: 0;
+}
+
+.project--text {
+  padding: 5px;
+  color: black;
+  border: 1px #000000 solid;
+  border-top: none;
+  background: rgba(153, 167, 228, 0.3);
+}
+
+.project--text--links {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 10px;
+}
+
+.project--text-link {
+  text-decoration: none;
+  background: #391775;
+  padding: 5px;
+  border: 1px solid black;
+  color: white;
+  font-weight: 600;
+}
+
+.project--text-link:hover {
+  background: #000000;
+}
+
+.project--image-holder {
+  height: 200px;
+  align-items: center;
+  background: #8495e44d;
+  border: 1px solid black;
+}
+
+.project-card--website-image-container {
+  margin-top: 5px;
+  padding: 5px;
+  padding-bottom: 0;
+}
+
+/*  Section three / Contact */
+.contact-container {
+  background-color: #4461e24d;
+  color: black;
+}
+
+
+/* Footer */
+footer { 
+  background-color: #391775;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+}
+
+.footer-text { 
+  display: flex;
+  justify-content: center;
+}
+
+.footer--contact-information {
+  height: 100px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
