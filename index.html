@@ -17,18 +17,25 @@ rel="stylesheet">
       src="https://kit.fontawesome.com/43c9e5e89e.js"
       crossorigin="anonymous"
     ></script>
+    <script type="module" src="index.js"> </script>
     <link rel="icon" href="images/miningpickdigitalminer.png" />
     <title>Portfolio - Bart van den Berg</title>
   </head>
 
   <body>
     <header>
-      <nav>
-        <ul>
-          <li class="website-logo">Bartholomeus<span class="logo-span-color">Berg.com</span></li>
-          <li> Projects </li>
-          <li> About me </li>
+      
+      <nav class="navbar">
+        <h1 class="website-logo">Bartholomeus<span class="logo-span-color">Berg.com</span> </h1>
+        <ul class="nav-menu">
+          <li class="nav-item"> <a href="#projects" class="nav-link"> Projects </a> </li>
+          <li class="nav-item"> <a href="#about-me" class="nav-link"> About me </a> </li>
         </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </nav>
     </header>
     <main>
@@ -59,7 +66,7 @@ rel="stylesheet">
       </section>
       <section class="project-container"> 
         <div class="max-width-flex-container">
-        <h2> The projects I designed and coded. </h2>
+        <h2 id="projects"> My Projects </h2>
         <div class="project-grid-container">
 
         <div class="project-card">
@@ -109,7 +116,6 @@ rel="stylesheet">
 
 
          <div class="project-card">
-          <a href="https://cheery-stroopwafel-ddc25d.netlify.app/">
           <figure class="project--image-holder">
         <a class="project--link" href="https://cheery-stroopwafel-ddc25d.netlify.app/">
         <img class="project--image"src="images/gameHub_Logo.png" alt="website for the ecommerce store GameHub">
@@ -134,10 +140,11 @@ rel="stylesheet">
         </section>
         <section class="contact-container"> 
         <div class="max-width-flex-container">
-          <h2> Get to know me a little bit </h2>
-          <p> I have been interested in technology since a very young age as my Grandfather had a computer where the internet would still cut of your phone line for a bit while browsing the internet. Little did I know that that would be a journey full of computers for me </p>
-          <p> As someone who has been surfing the web and been playing vidgeo games for a significant amount of his live, I served the military and studied sports, hehe. 
-            <p> My love for front end grew when I started using HTML and CSS as a joke to make a funny website. I realized it is a lot of fun to build something and make it functional. 
+          <h2 id="about-me"> Get to know me </h2>
+          <p> I have been interested in technology since a very young age as my Grandfather had a computer where the internet would still cut of your phone line for a bit while browsing the internet. 
+            Little did I know that that would be a journey full of computers for me </p>
+          <p> As someone who has been surfing the web and been playing vidgeo games for a significant amount of his live, I served the military and pstudied sorts, hehe. 
+            <p> My love for front end development grew when I started using HTML and CSS as a joke to make a funny website. I realized it is a lot of fun to build something and make it functional. 
           </div>
           </div>
           </section>
@@ -146,9 +153,9 @@ rel="stylesheet">
   <footer> 
   <div class="max-width-flex-container">
     <div class="footer--contact-information">
-      <h4> <i class="fa-solid fa-phone"></i> +47 999 999 999 </h4>
+      <h4> <i class="fa-solid fa-phone" aria-label="phone"></i> +47 999 999 999 </h4>
       <h3> Let's connect! </h3>
-      <h4> <i class="fa-solid fa-envelope"></i> Bartberg@gmail.com </h4>
+      <h4> <i class="fa-solid fa-envelope" aria-label="envelope"></i> Bartberg@gmail.com </h4>
 
     </div>
   </div>

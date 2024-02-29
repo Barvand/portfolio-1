@@ -7,7 +7,7 @@ body {
 header {
   background: black;
   align-content: center;
-  background: linear-gradient(to right, #391775 60%, #f1bd11 40%);
+  background: linear-gradient(to right, #836FFF 65%, #EBFF6F 35%);
 }
 
 nav {
@@ -29,6 +29,9 @@ ul {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
 .website-logo {
   font-family: "Asap Condensed", sans-serif;
   font-weight: 700;
@@ -37,7 +40,7 @@ ul {
 }
 
 .logo-span-color {
-  color: #f1bd11;
+  color: #EBFF6F;
 }
 
 li {
@@ -93,7 +96,7 @@ p {
 /*  First Section Hero Container */
 
 .introduction-hero {
-  background: linear-gradient(to right, #391775 60%, #f1bd11 40%);
+  background: linear-gradient(to right, #836FFF 65%, #EBFF6F 35%);
 }
 
 .hero-container {
@@ -105,9 +108,17 @@ p {
   width: 50%;
 }
 
+.hero-text h1 { 
+  color: #EBFF6F;
+}
+
+.github-logo-container  { 
+  align-items: center;
+}
+
 /*  Second Section Project Cards */
 .project-container {
-  background-color: rgba(111, 132, 230, 0.3);
+  background: #e5e6e7;
   color: black;
 }
 
@@ -132,10 +143,6 @@ p {
 
 .project--text {
   padding: 5px;
-  color: black;
-  border: 1px #000000 solid;
-  border-top: none;
-  background: rgba(153, 167, 228, 0.3);
 }
 
 .project--text--links {
@@ -147,22 +154,22 @@ p {
 
 .project--text-link {
   text-decoration: none;
-  background: #391775;
+  background: #EBFF6F;
   padding: 5px;
   border: 1px solid black;
-  color: white;
   font-weight: 600;
 }
 
 .project--text-link:hover {
   background: #000000;
+  color: #836FFF;
 }
 
 .project--image-holder {
   height: 200px;
   align-items: center;
-  background: #8495e44d;
-  border: 1px solid black;
+  background: #211951;
+  transition: transform 0.3s ease;
 }
 
 .project-card--website-image-container {
@@ -173,27 +180,91 @@ p {
 
 /*  Section three / Contact */
 .contact-container {
-  background-color: #4461e24d;
-  color: black;
+  background-color:#836FFF;
+  color: white;
+  padding: 60px;
 }
 
 
 /* Footer */
 footer { 
-  background-color: #391775;
+  background-color: #EBFF6F;
+  color: black;
   margin: 0;
   padding: 0;
   align-self: center;
 }
 
-.footer-text { 
-  display: flex;
-  justify-content: center;
-}
-
 .footer--contact-information {
-  height: 100px;
   display: flex;
   justify-content: space-between; 
   align-items: center;
+}
+
+/*  Hamburger menu */
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #391775;
+}
+
+.hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .hamburger.active-menu .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active-menu .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active-menu .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+.nav-menu {
+  position: fixed;
+  max-width: 1200px;
+  left: -100%;
+   top: 80px;
+  z-index: 999;
+  gap: 0;
+  display: flex;
+  flex-direction: column;
+  transition: top 0.3s; /* Transition top property for smooth animation */
+  background: linear-gradient(to right, #EBFF6F 65%, #836FFF 35%);   
+}
+
+  /* poistioning hamburger icon  */
+  .navbar {
+    justify-content: end;
+    align-content: center;
+    align-items: center;
+  }
+
+  .nav-item {
+    width: 100%;
+    color: black;
+  }
+
+  .nav-link {
+    display: block;
+    transition: 0.7s ease; /* Corrected the transition timing */
+    padding: 20px 20px;
+    color: black;
+  }
+
+  .nav-link:hover {
+    background: linear-gradient(to right, #836FFF 65%, #EBFF6F 35%);
+  }
+
+ .nav-menu.active-menu {
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%); 
 }

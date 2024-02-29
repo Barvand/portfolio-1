@@ -1,0 +1,28 @@
+@media (max-width: 800px) {
+  .introduction-hero {
+    background: linear-gradient(to bottom, #836fff 60%, #ebff6f 40%);
+  }
+  .hero-container {
+    flex-direction: column;
+  }
+
+  .hero-text {
+    width: 100%;
+  }
+
+  .hero--image--container {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .hero--image {
+    width: 80%;
+  }
+}
+
+/* Media query // footer */
+@media (max-width: 800px) {
+  .footer--contact-information {
+    flex-direction: column;
+  }
+}

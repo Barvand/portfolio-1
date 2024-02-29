@@ -6,17 +6,19 @@
 .hero--image {
   width: 80%;
   padding: 10px;
-  border: solid 5px #391775;
-  border-left: solid 5px #f1bd11;
-  border-bottom: solid 5px #f1bd11;
+  border: solid 5px #836FFF ;
+  border-left: solid 5px #EBFF6F;
+  border-bottom: solid 5px #EBFF6F;
   border-radius: 80%;
 }
 
 .github--logo {
-  width: 50%;
+  width: 125px;
+  height: 59px;
 }
 .github--mark {
-  width: 20%;
+  width: 50px;
+  height: 50px;
 }
 
 .project--image-holder {
@@ -30,5 +32,13 @@
   height: 200px;
   object-fit: cover;
   object-position: top;
+  
 }
 
+.project--image { 
+transition: transform 0.3s ease;
+}
+
+.project--image:hover { 
+  transform: scale(1.1);
+}
