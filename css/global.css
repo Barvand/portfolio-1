@@ -2,6 +2,7 @@ body {
   margin: 0;
   color: white;
   font-family: "Montserrat", sans-serif;
+  background: #e5e6e7;
 }
 
 header {
@@ -43,6 +44,10 @@ a {
   color: #EBFF6F;
 }
 
+.logo-com-black { 
+  color: black;
+}
+
 li {
   list-style: none;
   font-weight: 600;
@@ -57,13 +62,6 @@ figure {
   margin-right: auto; /* Pushes the logo to the left */
 }
 
-main {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin: auto;
-  padding: 0;
-}
 
 section {
   padding: 20px 0 20px 0;
