@@ -21,4 +21,3 @@ function setupHamburgerMenu() {
 
 setupHamburgerMenu();
 
-console.log("hello");

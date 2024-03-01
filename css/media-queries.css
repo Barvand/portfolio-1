@@ -1,4 +1,12 @@
 @media (max-width: 800px) {
+header { 
+  background: linear-gradient(to right, #836FFF 85%, #EBFF6F 15%);
+}
+}
+
+
+
+@media (max-width: 800px) {
   .introduction-hero {
     background: linear-gradient(to bottom, #836fff 60%, #ebff6f 40%);
   }
@@ -17,6 +25,8 @@
 
   .hero--image {
     width: 80%;
+    border-left: solid 5px #836fff;
+  border-bottom: solid 5px #836fff;
   }
 }
 

@@ -152,21 +152,18 @@ p {
 
 .project--text-link {
   text-decoration: none;
-  background: #EBFF6F;
-  padding: 5px;
-  border: 1px solid black;
   font-weight: 600;
+
 }
 
 .project--text-link:hover {
-  background: #000000;
-  color: #836FFF;
+  text-decoration: underline;
 }
 
 .project--image-holder {
   height: 200px;
   align-items: center;
-  background: #211951;
+  background: #836FFF;
   transition: transform 0.3s ease;
 }
 
@@ -179,7 +176,7 @@ p {
 /*  Section three / Contact */
 .contact-container {
   background-color:#836FFF;
-  color: white;
+ 
   padding: 60px 0 60px 0;
 }
 
@@ -235,7 +232,7 @@ footer {
   display: flex;
   flex-direction: column;
   transition: top 0.3s; /* Transition top property for smooth animation */
-  background: linear-gradient(to right, #EBFF6F 65%, #836FFF 35%);   
+  background: #EBFF6F;   
 }
 
   /* poistioning hamburger icon  */
@@ -258,7 +255,8 @@ footer {
   }
 
   .nav-link:hover {
-    background: linear-gradient(to right, #836FFF 65%, #EBFF6F 35%);
+    background: #836FFF;
+    color: white;
   }
 
  .nav-menu.active-menu {
