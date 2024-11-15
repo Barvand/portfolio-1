@@ -85,6 +85,11 @@ p {
   margin: 5px 0;
 }
 
+a { 
+  text-decoration: none;
+  color: white;
+}
+
 .margin {
   padding: 0;
   margin: 5px 0;
@@ -93,7 +98,7 @@ p {
 /*  First Section Hero Container */
 
 .introduction-hero {
-  background: linear-gradient(to right, #000000 65%, #ebff6f 35%);
+background: black;
 }
 
 .hero-container {
@@ -111,6 +116,27 @@ p {
 
 .github-logo-container {
   align-items: center;
+ 
+}
+
+.bart-image { 
+  background: url("/images/github-image.jpg");
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/* Button styling */
+.btn { 
+  padding: 10px;
+  background-color: #836fff;
+  width: fit-content;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.btn:hover { 
+  background-color: #391775;
 }
 
 /*  Second Section Project Cards */

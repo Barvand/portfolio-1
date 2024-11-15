@@ -1,15 +1,24 @@
-.hero-container,
 .github-logo-container,
 .hero-text {
   display: flex;
 }
 
 
+.hero-container { 
+display: flex;
+justify-content: space-around;
+gap: 50px ;
+}
+
 /* flex-direction: Column */
 .hero-text {
   flex-direction: column;
+  width: 100%;
 }
 
+.hero-h1 { 
+  font-size: 140px;
+}
 /* Justify content - Center */
 .hero-text {
   justify-content: center;

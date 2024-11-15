@@ -1,6 +1,14 @@
+@media(max-width: 1300px)
+{ 
+  .hero-h1 { 
+    font-size: 80px;
+  }
+}
+
+
 @media (max-width: 800px) {
 header { 
-  background: linear-gradient(to right, #836FFF 85%, #EBFF6F 15%);
+  background: black;
 }
 }
 
@@ -8,7 +16,7 @@ header {
 
 @media (max-width: 800px) {
   .introduction-hero {
-    background: linear-gradient(to bottom, #836fff 60%, #ebff6f 40%);
+    background: black;
   }
   .hero-container {
     flex-direction: column;
@@ -23,16 +31,22 @@ header {
     width: 90%;
   }
 
-  .hero--image {
-    width: 80%;
-    border-left: solid 5px #836fff;
-  border-bottom: solid 5px #836fff;
-  }
 }
 
 /* Media query // footer */
 @media (max-width: 800px) {
   .footer--contact-information {
     flex-direction: column;
+  }
+}
+
+
+@media (max-width: 500px) { 
+  .hero-h1 { 
+    font-size: 40px;
+  }
+
+  .hero-text { 
+    align-items: center;
   }
 }
