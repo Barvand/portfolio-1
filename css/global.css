@@ -143,11 +143,9 @@ align-content: center;
 
 /*  Second Section Project Cards */
 .project-container {
-  background: #e5e6e7;
+  background: #2a5953;
   color: black;
-  height: 80vh;
   align-content: center;
-
 }
 
 .project-grid-container {
