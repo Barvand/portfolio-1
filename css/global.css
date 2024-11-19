@@ -99,6 +99,8 @@ a {
 
 .introduction-hero {
 background: black;
+height: 80vh;
+align-content: center;
 }
 
 .hero-container {
