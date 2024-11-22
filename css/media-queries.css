@@ -1,11 +1,8 @@
 @media(max-width: 1300px)
 { 
   .hero-h1 { 
-    font-size: 80px;
-  }
-
-  .hero-text { 
-    align-items: center;
+    font-size: 5rem;
+    text-align: center;
   }
 }
 

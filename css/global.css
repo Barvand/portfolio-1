@@ -110,14 +110,19 @@ align-content: center;
 .hero-container {
   width: 100%;
   gap: 20px;
+  height: 60vh;
 }
 
 .hero-text {
-  width: 50%;
+  flex: 2;
+  display: flex;
+  align-items: center;
 }
+
 
 .hero-text h1 {
   color: #ebff6f;
+  text-align: center;
 }
 
 .github-logo-container {
@@ -126,10 +131,11 @@ align-content: center;
 }
 
 .bart-image { 
+  flex: 1;
   background: url("/images/github-image.jpg");
   width: 100%;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 /* Button styling */
@@ -169,11 +175,12 @@ align-content: center;
 }
 
 .project--text--type-project {
-  color: rgb(196, 196, 196);
+  color: rgb(201, 201, 201);
 }
 
 .project--text--title {
   margin: 0;
+  color: #ebff6f;
 }
 
 .project--text--type-project {

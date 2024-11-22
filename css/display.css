@@ -17,7 +17,8 @@ gap: 50px ;
 }
 
 .hero-h1 { 
-  font-size: 140px;
+  font-size: 8rem;
+  align-self: center;
 }
 /* Justify content - Center */
 .hero-text {
