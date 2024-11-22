@@ -1,7 +1,7 @@
 body {
   margin: 0;
   color: white;
-  font-family: "Montserrat", sans-serif;
+  font-family: "roboto", sans-serif;
   background: #e5e6e7;
 }
 
@@ -75,7 +75,7 @@ h1 {
   margin: 5px 0;
 }
 
-h2 {
+h2, h3{
   font-family: "Asap Condensed", sans-serif;
   font-weight: 700;
 }
@@ -208,6 +208,7 @@ align-content: center;
   align-items: center;
   background: #836fff;
   transition: transform 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 
 .project-card--website-image-container {
