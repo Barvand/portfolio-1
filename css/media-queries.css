@@ -3,6 +3,10 @@
   .hero-h1 { 
     font-size: 80px;
   }
+
+  .hero-text { 
+    align-items: center;
+  }
 }
 
 
@@ -24,6 +28,7 @@ header {
 
   .hero-text {
     width: 100%;
+    align-items: center;
   }
 
   .hero--image--container {
@@ -49,4 +54,21 @@ header {
   .hero-text { 
     align-items: center;
   }
+
+  .project--text--links{ 
+    margin-top: 30px;
+  }
+
+.project--text-fixed-height {
+  height: 100%;
+}
+}
+
+@media (max-width: 400px) { 
+   .project-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
 }

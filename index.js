@@ -19,5 +19,23 @@ function setupHamburgerMenu() {
   }
 }
 
+const navProjects = document.querySelector(".nav-projects");
+const navAboutMe = document.querySelector(".nav-about-me");
+const buttonHero = document.querySelector(".btn"); 
+const sectionWork = document.getElementById("projects");
+const sectionAboutMe = document.getElementById("about-me");
+
+
+
+async function scrollToView(button, section) {
+    button.addEventListener("click", () => {
+    section.scrollIntoView({ behavior: "smooth" });
+    })
+}
+
+ scrollToView(buttonHero, sectionWork);
+ scrollToView(navProjects, sectionWork)
+ scrollToView(navAboutMe, sectionAboutMe);
+
 setupHamburgerMenu();
 
