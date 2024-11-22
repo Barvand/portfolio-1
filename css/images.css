@@ -26,19 +26,30 @@
   justify-content: center;
 }
 
+.project-card--website-image-container { 
+  overflow: hidden;
+}
+
 
 .project-card--website-image{ 
   width: 100%;
   height: 200px;
   object-fit: cover;
   object-position: top;
-  
+  display: block;
+  background-size: 100%;
+  transition: background-size 0.3s ease; /* Smooth zoom effect */
+}
+
+.project-card--website-image:hover { 
+   transform: scale(1.01);
 }
 
 .project--image { 
 transition: transform 0.3s ease;
+
 }
 
 .project--image:hover { 
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
