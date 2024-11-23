@@ -89,6 +89,14 @@ a {
   color: white;
 }
 
+button { 
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  border: none;
+  
+}
+
 .bold{ 
 font-weight: 600;
 }
@@ -144,6 +152,7 @@ align-content: center;
   width: fit-content;
   font-weight: bold;
   margin-top: 20px;
+  font-size: 14px;
 }
 
 .btn-black { 
