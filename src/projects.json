@@ -1,0 +1,67 @@
+[
+  {
+    "id": "1",
+    "title": "Vindt Auction",
+    "type": "Semester Project 2",
+    "description": "Working with the Noroff API to build an auction website",
+    "buildWith": "Figma, HTML, CSS bootstrap, JavaScript",
+    "github": "https://github.com/Barvand/Semester-Project-2",
+    "liveSite": "https://vindt-auction.netlify.app/home/",
+    "logo": "images/vindtlogo.png",
+    "logoAlt": "Vindt logo",
+    "websiteImage": "images/vindthomepage.png",
+    "websiteImageAlt": "vindt website"
+  },
+  {
+    "id": "2",
+    "title": "Poster Social Media App",
+    "type": "JavaScript 2",
+    "description": "Working with the Noroff API to build a social media app.",
+    "buildWith": "Figma, HTML, CSS bootstrap, JavaScript",
+    "github": "https://github.com/Barvand/Noroff-JS2",
+    "liveSite": "https://idyllic-torte-4e59fa.netlify.app/",
+    "logo": "images/posterLogoPNG.png",
+    "logoAlt": "Poster logo",
+    "websiteImage": "images/posterimage.png",
+    "websiteImageAlt": "Poster website"
+  },
+  {
+    "id": "3",
+    "title": "The Digital Miner",
+    "type": "Project Exam 1",
+    "description": "A project exam for a traditional blog website using the WordPress REST API to display all blogs.",
+    "buildWith": "Figma, HTML, CSS, Vanilla JavaScript",
+    "github": "https://github.com/Noroff-FEU-Assignments/project-exam-1-Barvand",
+    "liveSite": "https://graceful-crepe-072f72.netlify.app/",
+    "logo": "images/thedigitalminerlogo.png",
+    "logoAlt": "the digital miner logo",
+    "websiteImage": "images/thedigitalminerwebsite.jpg",
+    "websiteImageAlt": "The digital miner website"
+  },
+  {
+    "id": "4",
+    "title": "Bergen Science Museum",
+    "type": "Semester Project 1",
+    "description": "An interactive hub designed to inspire curiosity and creativity in young minds.",
+    "buildWith": "Figma, HTML, CSS",
+    "github": "https://github.com/Barvand/Museum",
+    "liveSite": "https://animated-bombolone-6005db.netlify.app/",
+    "logo": "images/LogoScienceMuseum.png",
+    "logoAlt": "ScienceMuseum logo",
+    "websiteImage": "images/Museumwebsite.jpg",
+    "websiteImageAlt": "Bergen science museum website"
+  },
+  {
+    "id": "5",
+    "title": "Gamehub",
+    "type": "Cross Course Project",
+    "description": "This is an improved version of one of the first projects at Noroff. This has become an ecommerce site.",
+    "buildWith": "Figma, HTML, CSS, Vanilla JavaScript",
+    "github": "https://github.com/Barvand/Gamehub-CA-2.0",
+    "liveSite": "https://cheery-stroopwafel-ddc25d.netlify.app/",
+    "logo": "images/gameHub_Logo.png",
+    "logoAlt": "Gamehub logo",
+    "websiteImage": "images/gamehubwebsite.jpg",
+    "websiteImageAlt": "Gamehhub website"
+  }
+]
