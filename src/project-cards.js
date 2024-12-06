@@ -67,13 +67,13 @@ export async function renderProjectCard() {
   linksContainer.classList.add("project--text--links");
 
   const githubLink = document.createElement("a");
-  githubLink.classList.add("project--text-link", "btn-black");
+  githubLink.classList.add("project--text-link", "btn", "btn-black");
   githubLink.href = project.github;
   githubLink.target = "_blank";
   githubLink.textContent = "Github";
 
   const liveSiteLink = document.createElement("a");
-  liveSiteLink.classList.add("project--text-link", "btn-black");
+  liveSiteLink.classList.add("project--text-link", "btn", "btn-black");
   liveSiteLink.href = project.liveSite;
   liveSiteLink.target = "_blank";
   liveSiteLink.textContent = "Live site";
