@@ -3,6 +3,10 @@
   display: flex;
 }
 
+.flex {
+  display: flex;
+}
+
 .flex-end {
   align-self: flex-end; /* Moves the LinkedIn logo to the right */
 }

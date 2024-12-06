@@ -53,12 +53,31 @@ export async function renderProjectCard() {
     project.description;
   descriptionContainer.appendChild(description);
 
-  // Add build with
-  const buildWith = document.createElement("p");
-  buildWith.classList.add("project--text-build-with");
-  buildWith.textContent = project.buildWith;
+ const buildWithContainer = document.createElement("div"); // Container for all "build with" items
+ buildWithContainer.classList.add("project--build-with");
 
-  descriptionContainer.appendChild(buildWith);
+ project.buildWith.forEach((item) => {
+   const buildWithItem = document.createElement("p");
+   buildWithItem.classList.add("project--text-build-with");
+   buildWithItem.textContent = item;
+   buildWithContainer.appendChild(buildWithItem); // Add each item to the container
+
+   if (item === "JavaScript") { 
+    buildWithItem.classList.add("btn-JS", "btn-build");
+   } else if (item === "CSS") { 
+    buildWithItem.classList.add("btn-CSS", "btn-build");
+   } else if (item === "HTML") { 
+    buildWithItem.classList.add("btn-HTML", "btn-build");
+   } else if (item === "Figma") { 
+    buildWithItem.classList.add("btn-figma", "btn-build");
+   } else if (item === "Bootstrap") { 
+    buildWithItem.classList.add("btn-bootstrap", "btn-build")
+   }
+   buildWithContainer.appendChild(buildWithItem);
+
+ });
+
+ descriptionContainer.appendChild(buildWithContainer);
 
   textContainer.appendChild(descriptionContainer);
 
