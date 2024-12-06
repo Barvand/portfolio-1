@@ -142,14 +142,15 @@ align-content: center;
  
 }
 
-.bart-image { 
-  flex: 1;
-  background: url("/images/github-image.jpg");
-  width: 100%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.personal-image-container { 
+flex: 1;
+align-self: center;
 }
+
+.personal-image { 
+  width: 100%;
+}
+
 /* Button styling */
 .btn { 
   padding: 10px 20px 10px 20px; 

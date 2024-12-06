@@ -15,7 +15,7 @@ header {
   height: 100%;
 }
 
-.bart-image { 
+.personal-image { 
   display: none;
 }
 }
@@ -28,6 +28,7 @@ header {
   }
   .hero-container {
     flex-direction: column;
+    height: 100%;
   }
 
   .hero-text {
