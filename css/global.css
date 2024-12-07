@@ -2,7 +2,7 @@ body {
   margin: 0;
   color: white;
   font-family: "roboto", sans-serif;
-  background: #e5e6e7;
+  background: #14171a;
 }
 
 header {
@@ -74,7 +74,8 @@ h1 {
   margin: 5px 0;
 }
 
-h2, h3{
+h2,
+h3 {
   font-family: "Asap Condensed", sans-serif;
   font-weight: 700;
 }
@@ -84,21 +85,20 @@ p {
   margin: 5px 0;
 }
 
-a { 
+a {
   text-decoration: none;
   color: white;
 }
 
-button { 
+button {
   text-decoration: none;
   color: white;
   cursor: pointer;
   border: none;
-  
 }
 
-.bold{ 
-font-weight: 600;
+.bold {
+  font-weight: 600;
 }
 
 .margin {
@@ -109,9 +109,9 @@ font-weight: 600;
 /*  First Section Hero Container */
 
 .introduction-hero {
-background: #14171a;
-height: 80vh;
-align-content: center;
+  background: #14171a;
+  height: 80vh;
+  align-content: center;
 }
 
 .hero-container {
@@ -131,7 +131,6 @@ align-content: center;
   line-height: 25px;
 }
 
-
 .hero-text h1 {
   color: #ebff6f;
   text-align: center;
@@ -139,50 +138,49 @@ align-content: center;
 
 .github-logo-container {
   align-items: center;
- 
 }
 
-.personal-image-container { 
-flex: 1;
-align-self: center;
+.personal-image-container {
+  flex: 1;
+  align-self: center;
 }
 
-.personal-image { 
+.personal-image {
   width: 100%;
 }
 
 /* Button styling */
-.btn { 
-  padding: 10px 20px 10px 20px; 
+.btn {
+  padding: 10px 20px 10px 20px;
   width: fit-content;
   font-weight: bold;
   font-size: 14px;
   border-radius: 5px;
-  box-shadow: rgba(102, 102, 109, 0.25) 0px 30px 60px -12px, rgba(155, 146, 146, 0.3) 0px 18px 36px -18px;
+  box-shadow: rgba(102, 102, 109, 0.25) 0px 30px 60px -12px,
+    rgba(155, 146, 146, 0.3) 0px 18px 36px -18px;
 }
 
-.hero-btn { 
+.hero-btn {
   margin-top: 20px;
   background-color: #836fff;
-
 }
 
-.btn-black { 
+.btn-black {
   background-color: #000000;
   width: fit-content;
   font-weight: bold;
 }
 
-.btn:hover { 
+.btn:hover {
   background-color: #391775;
 }
 
-.btn-black:hover { 
+.btn-black:hover {
   background-color: #836fff;
 }
 /*  Second Section Project Cards */
 .project-container {
-  background: #2a5953;
+  background: #14171a;
   align-content: center;
 }
 
@@ -211,7 +209,7 @@ align-self: center;
   color: white;
 }
 
-.project--text-fixed-height { 
+.project--text-fixed-height {
   height: 125px;
   margin: auto;
   align-content: center;
@@ -249,39 +247,39 @@ align-self: center;
   border-bottom: 2px #ebff6f solid;
 }
 
-.project--build-with { 
+.project--build-with {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
 }
 
-
-.btn-build { 
-  padding: 10px 10px 10px 10px; 
+.btn-build {
+  padding: 10px 10px 10px 10px;
   width: fit-content;
   font-weight: bold;
   font-size: 14px;
   border-radius: 5px;
-  box-shadow: rgba(102, 102, 109, 0.25) 0px 30px 60px -12px, rgba(155, 146, 146, 0.3) 0px 18px 36px -18px;
+  box-shadow: rgba(102, 102, 109, 0.25) 0px 30px 60px -12px,
+    rgba(155, 146, 146, 0.3) 0px 18px 36px -18px;
 }
-.btn-figma { 
-  background-color: #A259FF;
-}
-
-.btn-HTML { 
-  background-color: #E34F26;
+.btn-figma {
+  background-color: #a259ff;
 }
 
-.btn-CSS { 
-  background-color: #1572B6;
+.btn-HTML {
+  background-color: #e34f26;
 }
 
-.btn-JS { 
-  background-color: #FFEB3B;
+.btn-CSS {
+  background-color: #1572b6;
+}
+
+.btn-JS {
+  background-color: #ffeb3b;
   color: black;
 }
 
-.btn-bootstrap  { 
+.btn-bootstrap {
   background-color: #563d7c;
 }
 
@@ -292,7 +290,6 @@ align-self: center;
   color: #fff;
   padding: 60px 0 60px 0;
   align-content: center;
-
 }
 
 /* Footer */
@@ -307,7 +304,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color:#14171a;
+  background-color: #14171a;
   color: #ebff6f;
 }
 
@@ -379,4 +376,24 @@ footer {
   transform: translateX(-50%);
 }
 
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
+/* Initial state: Hidden */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20px); /* Slight slide-in effect */
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+/* When in view: Fully visible */
+.fade-in-section.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}

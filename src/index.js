@@ -20,3 +20,27 @@ setupHamburgerMenu();
 
 // renders project cards
 renderProjectCard();
+
+
+// Initialize the Intersection Observer
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("in-view");
+      }
+    });
+  },
+  {
+    rootMargin: "0px", // Adjust to detect earlier/later
+    threshold: 0.01, // Trigger when 10% of the element is visible
+  }
+);
+
+// Select all elements to observe
+const sections = document.querySelectorAll(".fade-in-section");
+
+// Observe each section
+sections.forEach((section) => {
+  observer.observe(section);
+});
