@@ -114,6 +114,10 @@ button {
   align-content: center;
 }
 
+.border-bottom { 
+  border-bottom: 1px solid grey;
+}
+
 .hero-container {
   width: 100%;
   gap: 20px;
@@ -285,6 +289,10 @@ button {
 
 /*  Section three / Contact */
 
+#about-me { 
+  color: #ebff6f;
+  text-transform:inherit;
+}
 .contact-container {
   background-color: #1b1f23;
   color: #fff;
