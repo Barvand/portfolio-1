@@ -38,9 +38,9 @@
 }
 
 .max-width-flex-container {
-  width: 90%;
   max-width: 1200px;
   margin: auto;
+  width: 90%;
 }
 
 .hero--image--container {
