@@ -61,9 +61,6 @@ figure {
   margin-right: auto; /* Pushes the logo to the left */
 }
 
-section {
-  padding: 20px 0 20px 0;
-}
 
 h1 {
   font-family: "Asap Condensed", sans-serif;
@@ -78,6 +75,10 @@ h2,
 h3 {
   font-family: "Asap Condensed", sans-serif;
   font-weight: 700;
+}
+
+h2 { 
+  padding-top: 30px;
 }
 
 p {

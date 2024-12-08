@@ -28,7 +28,6 @@ header {
   }
   .hero-container {
     flex-direction: column;
-    height: 100%;
   }
 
   .hero-text {
