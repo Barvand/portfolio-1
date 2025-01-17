@@ -61,7 +61,6 @@ figure {
   margin-right: auto; /* Pushes the logo to the left */
 }
 
-
 h1 {
   font-family: "Asap Condensed", sans-serif;
   font-weight: 700;
@@ -77,7 +76,7 @@ h3 {
   font-weight: 700;
 }
 
-h2 { 
+h2 {
   padding-top: 30px;
 }
 
@@ -115,7 +114,7 @@ button {
   align-content: center;
 }
 
-.border-bottom { 
+.border-bottom {
   border-bottom: 1px solid grey;
 }
 
@@ -169,7 +168,6 @@ button {
   margin-top: 20px;
   background-color: #836fff;
   border: solid 3px #836fff;
-  
 }
 
 .btn-black {
@@ -220,7 +218,7 @@ button {
 }
 
 .project--text-fixed-height {
-  height: 125px;
+  height: 175px;
   margin: auto;
   align-content: center;
 }
@@ -240,9 +238,11 @@ button {
 .project--image-holder {
   height: 200px;
   align-items: center;
-  background: #836fff;
+  background: #201f1f;
   transition: transform 0.3s ease;
   box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .project-card--website-image-container {
@@ -293,11 +293,24 @@ button {
   background-color: #563d7c;
 }
 
+.btn-tailwind {
+  background-color: #38bdf8;
+  color: black;
+}
+
+.btn-react {
+  background-color: #3887a8;
+}
+
+.btn-typescript {
+  background-color: #1a4a5f;
+}
+
 /*  Section three / Contact */
 
-#about-me { 
+#about-me {
   color: #ebff6f;
-  text-transform:inherit;
+  text-transform: inherit;
 }
 .contact-container {
   background-color: #1b1f23;

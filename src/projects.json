@@ -1,5 +1,18 @@
 [
   {
+    "id": "7",
+    "title": "Timeless",
+    "type": "JavaScript Frameworks",
+    "description": "Working with the Noroff API to build an auction website using React",
+    "buildWith": ["Figma", "HTML", "Tailwind", "JavaScript", "TypeScript", "React"],
+    "github": "https://github.com/Barvand/JavaScript-Frameworks/",
+    "liveSite": "https://timeless-shop.netlify.app/",
+    "logo": "images/timelesslogo.png",
+    "logoAlt": "Timeless logo",
+    "websiteImage": "images/timeless-website.jpg",
+    "websiteImageAlt": "Timeless website"
+  },
+  {
     "id": "1",
     "title": "Vindt Auction",
     "type": "Semester Project 2",

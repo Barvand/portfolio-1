@@ -62,16 +62,22 @@ export async function renderProjectCard() {
    buildWithItem.textContent = item;
    buildWithContainer.appendChild(buildWithItem); // Add each item to the container
 
-   if (item === "JavaScript") { 
-    buildWithItem.classList.add("btn-JS", "btn-build");
-   } else if (item === "CSS") { 
-    buildWithItem.classList.add("btn-CSS", "btn-build");
-   } else if (item === "HTML") { 
-    buildWithItem.classList.add("btn-HTML", "btn-build");
-   } else if (item === "Figma") { 
-    buildWithItem.classList.add("btn-figma", "btn-build");
-   } else if (item === "Bootstrap") { 
-    buildWithItem.classList.add("btn-bootstrap", "btn-build")
+   if (item === "JavaScript") {
+     buildWithItem.classList.add("btn-JS", "btn-build");
+   } else if (item === "CSS") {
+     buildWithItem.classList.add("btn-CSS", "btn-build");
+   } else if (item === "HTML") {
+     buildWithItem.classList.add("btn-HTML", "btn-build");
+   } else if (item === "Figma") {
+     buildWithItem.classList.add("btn-figma", "btn-build");
+   } else if (item === "Bootstrap") {
+     buildWithItem.classList.add("btn-bootstrap", "btn-build");
+   } else if (item === "Tailwind") {
+     buildWithItem.classList.add("btn-tailwind", "btn-build");
+   } else if (item === "React") {
+     buildWithItem.classList.add("btn-react", "btn-build");
+   } else if (item === "TypeScript") {
+     buildWithItem.classList.add("btn-typescript", "btn-build");
    }
    buildWithContainer.appendChild(buildWithItem);
 
